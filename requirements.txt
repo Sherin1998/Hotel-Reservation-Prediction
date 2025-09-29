@@ -1,0 +1,10 @@
+pandas
+setuptools
+numpy
+google-cloud-storage
+scikit-learn
+pyyaml
+lightgbm
+mlflow
+
+

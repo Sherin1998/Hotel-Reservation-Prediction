@@ -5,7 +5,8 @@ This project is part of my **MLOps Certification** and demonstrates an end-to-en
 
 The system predicts hotel booking outcomes, enabling **data-driven decisions for operational efficiency**.
 
-![Project Overview](images/project_overview.png)
+<img width="1361" height="620" alt="Screenshot 2025-10-08 114342" src="https://github.com/user-attachments/assets/9a190838-95aa-4ccc-b3dc-025c6c48651f" />
+
 
 ---
 

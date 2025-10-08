@@ -95,15 +95,15 @@ Step 6: Set Environment Variable (Windows)
 set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-key.json"
 
 2️⃣ Run ETL & Model Training (Windows)
-2.1 Run ETL Pipeline
-python pipeline/training_pipeline.py
+2.1 **Run ETL Pipeline****
+python pipeline/setup.py
 
 
-2.2 Train the Model
+2.2 **Train the Model**
 python src/model_training.py
 
 
-2.3 Start the Flask Application
+2.3 **Start the Flask Application**
 
 Activate virtual environment first:
 
@@ -112,7 +112,7 @@ venv\Scripts\activate
 
 Run Flask app:
 
-python app.py
+**python app.py**
 
 
 Open in browser:

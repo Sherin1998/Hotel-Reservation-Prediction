@@ -18,6 +18,7 @@ The system predicts hotel booking outcomes, enabling **data-driven decisions for
 - **Deployment & CI/CD**: Dockerized application and automated deployment using CircleCI.
 - **Cloud Storage Integration**: Scalable storage via Google Cloud Platform (GCP).
 
+<img width="1351" height="612" alt="Screenshot 2025-10-08 145747" src="https://github.com/user-attachments/assets/9fba5891-9161-4945-bf92-27c254d0dab4" />
 
 ---
 
@@ -96,8 +97,8 @@ set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-key.json"
 
 ## 3️⃣ Dockerizing the Hotel Booking Prediction App
 
-Docker allows you to package your application along with all dependencies into a single container. This ensures consistency across environments and simplifies deployment.
+Docker allows you to package your application along with all dependencies into a single container. This ensures consistency across environments and simplifies deployment.This allows to create a container registery and docker image which will be easier in deployment.
 
 ---
 
-
+Future Development and changes : Integrate Comet ML ,Addition of  Jenkins and Kubernetes 

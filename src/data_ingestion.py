@@ -59,3 +59,4 @@ if __name__ == "__main__":
     config = read_yaml(CONFIG_PATH)
     data_ingestion = DataIngestion(config)
     data_ingestion.run()
+

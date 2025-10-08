@@ -38,6 +38,10 @@ git clone https://github.com/your-username/hotel-booking-mlops.git
 cd hotel-booking-mlops
 
 
+
+
+
+
 ## ☁️ Google Cloud Platform (GCP) Setup
 
 Follow these steps to configure GCP for the Hotel Booking Prediction MLOps project.

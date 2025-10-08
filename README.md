@@ -38,6 +38,15 @@ The system predicts hotel booking outcomes, enabling **data-driven decisions for
 git clone https://github.com/your-username/hotel-booking-mlops.git
 cd hotel-booking-mlops
 
+### Create the virtual environment
+
+```bash
+python -m venv venv
+
+venv\scripts\activate
+
+pip intall -e .
+
 
 
 
@@ -95,10 +104,15 @@ set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-key.json"
 
 ```
 
-## 3️⃣ Dockerizing the Hotel Booking Prediction App
+## 2 Run ETL & Model Training
 
-Docker allows you to package your application along with all dependencies into a single container. This ensures consistency across environments and simplifies deployment.This allows to create a container registery and docker image which will be easier in deployment.
+Follow the steps below to run the ETL pipeline, train the model, and start the Flask application.
 
 ---
 
-Future Development and changes : Integrate Comet ML ,Addition of  Jenkins and Kubernetes 
+### 3.1 Run ETL Pipeline
+
+Execute the following command to run the ETL pipeline:
+
+```bash
+python pipeline/setup.py

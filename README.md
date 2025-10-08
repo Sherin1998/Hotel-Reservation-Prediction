@@ -92,3 +92,12 @@ Set the JSON key path so your code can authenticate with GCP:
 ```bash
 set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-key.json"
 
+```
+
+## 3️⃣ Dockerizing the Hotel Booking Prediction App
+
+Docker allows you to package your application along with all dependencies into a single container. This ensures consistency across environments and simplifies deployment.
+
+---
+
+

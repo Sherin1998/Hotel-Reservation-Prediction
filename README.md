@@ -36,3 +36,55 @@ The system predicts hotel booking outcomes, enabling **data-driven decisions for
 ```bash
 git clone https://github.com/your-username/hotel-booking-mlops.git
 cd hotel-booking-mlops
+
+
+## ☁️ Google Cloud Platform (GCP) Setup
+
+Follow these steps to configure GCP for the Hotel Booking Prediction MLOps project.
+
+---
+
+### **Step 1: Create a GCP Account**
+1. Go to [https://cloud.google.com](https://cloud.google.com) and sign in or create an account.
+2. Set up billing (free tier credits can be used initially).
+
+---
+
+### **Step 2: Create a New Project**
+1. Navigate to **Google Cloud Console → Select a Project → New Project**.
+2. Give it a **name** (e.g., `hotel-booking-mlops`) and note the **Project ID**.
+
+---
+
+### **Step 3: Enable Required APIs**
+1. Go to **APIs & Services → Library**.
+2. Enable the following APIs:  
+   - Cloud Storage API  
+   - AI Platform / Vertex AI API (if using managed ML)  
+   - Compute Engine API  
+
+---
+
+### **Step 4: Create a Service Account**
+1. Navigate to **IAM & Admin → Service Accounts → Create Service Account**.
+2. Assign a name (e.g., `mlops-service-account`) and select roles:  
+   - **Storage Admin** (access to Cloud Storage)  
+   - **ML Engine Admin** (if using AI Platform/Vertex AI)  
+3. Complete the creation.
+
+---
+
+### **Step 5: Generate a Key File**
+1. In the service account list, click **Actions → Manage Keys → Add Key → Create new key**.
+2. Choose **JSON** format and download the key file.  
+   ⚠️ Keep it secure as it will be used to authenticate your scripts.
+
+---
+
+### **Step 6: Set Environment Variable**
+Set the JSON key path so your code can authenticate with GCP:
+
+- **Windows (Command Prompt):**
+```bash
+set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your-key.json"
+

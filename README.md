@@ -41,11 +41,11 @@ cd hotel-booking-mlops
 ### Create the virtual environment
 
 ```bash
-python -m venv venv
+-**python -m venv venv**
 
-venv\scripts\activate
+-**venv\scripts\activate**
 
-pip intall -e .
+-**pip intall -e .**
 
 
 

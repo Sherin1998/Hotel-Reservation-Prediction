@@ -1,7 +1,7 @@
 # 🏨 Hotel Booking Prediction – MLOps Certification Project
 
 ## Overview
-This project is part of my **MLOps Certification** and demonstrates an end-to-end **Hotel Booking Prediction System**. It includes **data ingestion, preprocessing, model building, experiment tracking, and production-ready deployment** using modern MLOps practices.
+In this project, the goal is to develop a predictive model to determine whether a hotel booking will be canceled—a critical task for hotels, as cancellations can significantly impact revenue and operational planning. The dataset includes numerous features related to bookings, such as lead time, deposit type, and special requests, which increases the complexity of the modeling process. Key challenges involve comprehensive data preprocessing, including feature selection and engineering, handling missing values, and managing data noise. Furthermore, multiple models will be trained, their performance evaluated using appropriate metrics, and insights will be drawn by analyzing the most influential features that drive hotel booking cancellations.
 
 The system predicts hotel booking outcomes, enabling **data-driven decisions for operational efficiency**.
 
@@ -18,15 +18,15 @@ The system predicts hotel booking outcomes, enabling **data-driven decisions for
 - **Deployment & CI/CD**: Dockerized application and automated deployment using CircleCI.
 - **Cloud Storage Integration**: Scalable storage via Google Cloud Platform (GCP).
 
-![Features](images/features.png)
 
 ---
 
 ## Dataset
-- The project uses [Hotel Booking Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) from Kaggle.
+- The project uses [Hotel Booking Dataset](https://www.kaggle.com/code/farzadnekouei/hotel-booking-cancellation-prediction) from Kaggle.
 - Data includes booking details, customer demographics, and stay information.
 
-![Dataset Sample](images/dataset_sample.png)
+<img width="1077" height="573" alt="image" src="https://github.com/user-attachments/assets/00c52593-64c0-43d3-9afe-0a467b14750d" />
+
 
 ---
 
